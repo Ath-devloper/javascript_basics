@@ -1,8 +1,8 @@
-let num=212;
-let num2=num%10;
-if(num2%2===0){
-    console.log("wow number is even",num2);
-
-}else{
-    console.log("okay so the num2 is odd ",num2)
+let day=3;
+if(day%3===0&&day%5===0){
+    console.log("fizzbuzz");
+}else if(day%5===0){
+    console.log("buzz");
+}else if(day%3===0){
+    console.log("fizz");
 }
