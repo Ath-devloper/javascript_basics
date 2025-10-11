@@ -1,1 +1,1 @@
-print("This is to check my wtiritng speed")
+a=int(input("this is to be taken as a input :"))
