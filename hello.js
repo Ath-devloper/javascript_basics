@@ -1,8 +1,6 @@
-let Number=50;
-let sum=0;
-for(let i=0;i<=Number;i++){
-    if(i%2 != 0){
-        sum=sum+i;
-    }
+function addition(num1,num2){
+    let sum=num1+num2;
+    return sum;
 }
-console.log(sum)
+const did=addition(10,20);
+console.log(did);
